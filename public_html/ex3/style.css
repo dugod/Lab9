@@ -1,0 +1,35 @@
+body{
+    background-color: #f8f8ff;
+    font-size: 20pt;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.buttons {
+	background-color: white;
+	border-radius: 10px;
+	border-color: blue;
+}
+
+.buttons:hover {
+  background-color: grey;
+  color: white;
+}
+
+table{
+	border: 100px black;
+	border-collapse: collapse;
+	width: 700px;
+	height: 200px;
+}
+
+th{
+	background-color: beige;
+}
+
+td{
+	background-color: #66FF99;
+}
+
+th:hover {background-color: coral;}
+
+td:hover {background-color: green;}

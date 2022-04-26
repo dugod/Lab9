@@ -1,0 +1,30 @@
+<html> 
+   <link rel="stylesheet" href="style.css">
+<body> 
+    <form id="myForm" onsubmit="return validate()" action="customerBackend.php" method="post"> 
+		<div id="header">
+			Username: <input type="text" name="username" id="username"> <br>
+			Password: <input type="password" name="password" id="password"> <br>
+		</div>
+		
+		<br>
+		<input type="radio" name="i1" value="29.99" id="i1"> Item 1: ITZY album <span style="color:green">$29.99</span>	<br> Amount: <input type="text" name="in1" id="in1"> <br>
+		<input type="radio" name="i2" value="0.99" id="i2"> Item 2: Pencil <span style="color:green">$0.99</span> <br> Amount: <input type="text" name="in2" id="in2"> <br>
+		<input type="radio" name="i3" value="499.99" id="i3"> Item 3: Air Jordan 1s <span style="color:green">$499.99</span> <br> Amount: <input type="text" name="in3" id="in3"> <br>
+		
+		<br>
+		Shipping:
+		<br>
+		<div>
+			<input type="radio" name="ship" value="Free" id="ship"> Free 7 Day <br>
+			<input type="radio" name="ship" value="3 Day" id="ship"> 3 Day: $5.00 <br>
+			<input type="radio" name="ship" value="Overnight" id="ship"> Overnight: $50.00 <br>
+		</div>
+		
+		<button type="button" onclick="reset()" class="buttons">Reset</button>
+		<input type="submit" class="buttons"> 
+    </form> 
+</body> 
+<script type="text/javascript" src="formChecker.js"></script>
+</html>
+
